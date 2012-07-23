@@ -5,6 +5,8 @@ gem "rails", "~> 3.2.6"
 gem "capistrano"
 gem "unicorn"
 
+gem "therubyracer"
+
 gem "jquery-rails", "~> 2.0.2"
 gem "omniauth", "~> 1.1.0"
 gem "omniauth-openid", "~> 1.0.1"
