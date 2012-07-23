@@ -1,0 +1,7 @@
+uk:
+  sessions:
+    new:
+      choose_provider: "Оберіть провайдера:"
+      description:
+    destroy:
+      successful: "Щасти! :)"

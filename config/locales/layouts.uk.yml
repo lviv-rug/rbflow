@@ -1,0 +1,19 @@
+uk:
+  layouts:
+    application:
+      meta_description: "Колективний блог львівської спільноти Ruby розробників"
+      meta_keywords: "Lviv-RUG,Ruby,JRuby,Rails,Sinatra,Rails3,Львів,Lviv"
+      meta_author: "Vitaly Pushkar"
+      title: "Колективний блог Lviv Ruby User Group"
+      new_item: "Додати публікацію"
+      vacancies: "Вакансії"
+      account: "Акаунт"
+      search: "Пошук"
+      sign_in: "Вхід"
+      sign_out: "Вихід"
+      about: "Про проект"
+      terms: "Умови"
+      users: "Користувачі"
+      contacts: "Контактна інформація"
+    commons:
+      destroy_confirmation: "Справді видалити '%{subject}'?"

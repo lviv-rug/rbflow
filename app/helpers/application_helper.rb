@@ -31,7 +31,7 @@ module ApplicationHelper
     content_tag :i, nil, :class => "icon #{icon}"
   end
   
-  def years_tag(from = 2008, to = Date.current.year)
+  def years_tag(from = 2012, to = Date.current.year)
     if from != to
       "#{from}&mdash;#{to}".html_safe
     else

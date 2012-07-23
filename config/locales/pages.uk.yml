@@ -1,0 +1,24 @@
+uk:
+  pages:
+    show:
+      about:
+        title: "Колективний блог львівської спільноти Ruby розробників"
+        markdown: |
+          На даному сайті розміщуються публікації на тему Ruby від спільноти львівських Ruby-розробників
+          
+          Концепцію RubyFlow створив Пітер Купер ([Peter Cooper](http://peterc.org)), автор [Ruby Inside](http://www.rubyinside.com).
+          
+          Дана версія сайту є відгалуженням від проекту [RubyFlow.ru](https://github.com/soulim/rbflow), створеного [Олександром Сулімом](http://soulim.com/)
+          
+      contacts:
+        title: "Контактна інформація"
+        markdown: |
+          
+          Електронна пошта: [vitaly.pushkar@gmail.com](mailto:vitaly.pushkar@gmail.com)  
+          
+          *Віталій Пушкар,
+          засновник та керівник Lviv RUG*
+      terms:
+        title: "Умови користування"
+        markdown: |
+          Інформація тимчасово відсутня

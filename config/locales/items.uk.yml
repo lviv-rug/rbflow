@@ -1,0 +1,27 @@
+uk:
+  items:
+    index:
+      title: "Колективний блог львівської спільноти Ruby розробників"
+      comments: "Коментарі"
+    new:
+      title: "Нова публікація"
+      create: "Опублікувати"
+      cancel: "Відміна"
+      processing: "Збереження..."
+    create:
+      successful: "Публікацію додано"
+    edit:
+      title: "Редагування публікації"
+      update: "Оновити"
+      cancel: "Відміна"
+      processing: "Збереження..."
+    update:
+      successful: "Публікацію оновлено"
+    show:
+      edit: "Редагувати"
+      destroy: "Видалити"
+      comments: "Коментарі"
+      new_comment: "Коментувати"
+      please_sign_in_to_add_comment: "Авторизуйтесь щоб додати новий коментар."
+    destroy:
+      successful: "Статтю видалено"

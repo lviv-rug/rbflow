@@ -1,0 +1,12 @@
+uk:
+  users:
+    index:
+      title: "Автори"
+      approve: "Довіряти"
+      unapprove: "Не довіряти"
+      destroy: "Видалити"
+    show:
+      title: "Акаунт"
+      providers: "Провайдери аутентифікації"
+      add_provider: "Додати"
+      remove_provider: "Видалити"

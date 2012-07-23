@@ -21,17 +21,16 @@
     </nav>
     <% end %>
     <header id="header" class="container_12 clearfix">
-      <section class="logo grid_2"><%= link_to_if !current_page?(root_url), "Ruby<span>Flow</span>".html_safe, root_url %></section>
+      <section class="logo grid_2"><%= link_to_if !current_page?(root_url), "LVIV<span>RUG</span>".html_safe, root_url %></section>
       <section class="menu grid_8">
         <nav>
           <ul>
             <li><%= link_to t(".new_item"), new_item_url %></li>
-            <li><%= link_to t(".vacancies"), "http://rubyjobs.ru" %></li>
-            <li>
+            <!-- <li>
               <a href="https://twitter.com/rubyflowru" class="twitter-follow-button" data-show-count="false" data-lang="ru" data-show-screen-name="false" data-width="65px">Читать @rubyflowru</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </li>
-            <li><%= link_to image_tag("feed.png", :size => "16x16"), "http://feeds.feedburner.com/rubyflowru" %></li>
+            </li> -->
+            <!-- <li><%= link_to image_tag("feed.png", :size => "16x16"), "http://feeds.feedburner.com/rubyflowru" %></li> -->
           </ul>
         </nav>
       </section>
@@ -43,21 +42,16 @@
       <section class="account">
         <%= signed_in? ? link_to(t(".account"), user_url(current_user)) : link_to(t(".sign_in"), sign_in_url) %>
       </section>
-    </header>    
+    </header>
     <section id="content" class="content container_12 clearfix">
       <%= yield %>
     </section>
     <footer id="footer" class="container_12 clearfix">
       <section class="grid_2">
-        <p>&copy;&nbsp;<%= years_tag %>, <a href="http://soulim.com">Alex Soulim</a></p>
-        <p>При поддержке хостинг-провайдера <a href="http://locum.ru?code=f07cb8b5a66f6116967a13f8b2818e45fb644306" class="partner"><span>locum.ru</span></a></p>
+        <p>&copy;&nbsp;<%= years_tag %>, <a href="https://github.com/talykar/rbflow">rbflow fork</a></p>
       </section>
       <section class="grid_4">
-        <p>
-          <%= link_to image_tag('travis-ci50x50.png', :size => '50x50'), 'http://travis-ci.org/', :style => 'float:left;margin-right:10px;' %>
-          Travis CI&nbsp;&mdash; простой и мощный сервис непрерывной интеграции для ваших проектов с открытым кодом.
-          <%= link_to 'http://travis-ci.org', 'http://travis-ci.org' %>
-        </p>
+        <p>За підтримки хостинг-провайдера <a href="http://locum.ru?code=ac9f65f763c7080ef23ce9e2ddbf92a2b53a8bb5" class="partner"><span>locum.ru</span></a></p>
       </section>
       <section class="grid_4">
         <nav>
@@ -65,15 +59,13 @@
             <li><%= link_to t(".about"), page_url(:id => "about") %></li>
             <li><%= link_to t(".contacts"), page_url(:id => "contacts") %></li>
           </ul>
-        </nav>          
+        </nav
       </section>
       <section class="grid_2 counters">
-        <a href="https://twitter.com/rubyflowru" class="twitter-follow-button" data-show-count="false" data-lang="ru" data-show-screen-name="false" data-width="65px">Читать @rubyflowru</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        <a href="http://feeds.feedburner.com/rubyflowru" style="display:inline-block;vertical-align:top;" title="Подпишись на RSS"><img src="http://feeds.feedburner.com/~fc/rubyflowru?bg=eeeeee&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+        <p></p>
       </section>
     </footer>
-    <%= javascript_include_tag "application" %>  
+    <%= javascript_include_tag "application" %>
     <script type="text/javascript">
       $('pre').each(function(i, e) { hljs.highlightBlock(e, '    ')});
     </script>
@@ -83,7 +75,7 @@
       <%= javascript_include_tag "http://static.evernote.com/noteit.js", :cache => false %>
       <script type="text/javascript">
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-391915-11']);
+        _gaq.push(['_setAccount', '']);
         _gaq.push(['_trackPageview']);
 
         (function() {

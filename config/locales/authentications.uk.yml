@@ -1,0 +1,4 @@
+uk:
+  authentications:
+    destroy:
+      successful: "Провайдера видалено, але його завжди можна додати знову"
