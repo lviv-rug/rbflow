@@ -61,7 +61,7 @@ Rbflow::Application.configure do
     # Setup exception notification plugin
   config.middleware.use ExceptionNotifier,
     :email_prefix => "[RubyFlow] ",
-    :sender_address => %{"RubyFlow notifier" <notifier@soulim.com>},
-    :exception_recipients => %w{dev@soulim.com},
+    :sender_address => %{"RubyFlow notifier" <vitaly.pushkar@gmail.com>},
+    :exception_recipients => %w{vitaly.pushkar@gmail.com},
     :ignore_crawlers => %w{Googlebot bingbot}
 end
