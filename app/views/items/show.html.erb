@@ -13,9 +13,11 @@
       <%= @item.title %><span><%= @item.author_name %></span>
     </header>
     <aside>
-      <ul>
-        <li><a href="#" onclick="Evernote.doClip({styling:'none',suggestNotebook:'rubyflow.ru',providerName:'rubyflow.ru',contentId:'item-<%= @item.id %>-html',url:'<%= item_url(@item) %>',title:'<%= escape_javascript @item.title %>'}); return false;"><img src="http://static.evernote.com/site-mem-16.png" alt="Сохранить в Evernote" style="vertical-align:bottom"></a></li>
-      </ul>
+          <ul>
+            <li><a href="#" onclick="Evernote.doClip({styling:'none',suggestNotebook:'rug.lviv.ua',providerName:'rug.lviv.ua',contentId:'item-<%= item.id %>-html',url:'<%= item_url(item) %>',title:'<%= escape_javascript item.title %>'}); return false;"><img src="http://static.evernote.com/site-mem-16.png" alt="Сохранить в Evernote" style="vertical-align:bottom"></a></li>
+            <li><a href="https://twitter.com/share" class="twitter-share-button" data-lang="uk">Твіт</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+          </ul>
     </aside>
     <section id="item-<%= @item.id %>-html"><%= @item.html.html_safe %></section>
     <section class="comments clearfix">
