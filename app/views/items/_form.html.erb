@@ -1,18 +1,16 @@
 <div>
-  <%= f.text_field :title, :placeholder => t("activerecord.attributes.item.title"), :autofocus => true %>
+  <%= f.text_field :title, :autofocus => true %>
 </div>
 <div id="wmd-button-bar"></div>
 <div>
-  <%= f.text_area :markdown, :placeholder => t("activerecord.attributes.item.markdown") %>
+  <%= f.text_area :markdown %>
 </div>
 <% content_for :footer_js do %>
   <script type="text/javascript">
     function updateTitlePreview() {
       $("#title-preview").text($(this).val());
     };
-    
     $("#item_title").keyup(updateTitlePreview);
-    
     setup_wmd({
       input: "item_markdown"
     });
