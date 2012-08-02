@@ -15,5 +15,6 @@ uk:
       terms: "Умови"
       users: "Користувачі"
       contacts: "Контактна інформація"
+      jobs: "Розміщення вакансій"
     commons:
       destroy_confirmation: "Справді видалити '%{subject}'?"
