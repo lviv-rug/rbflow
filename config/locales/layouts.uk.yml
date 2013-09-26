@@ -2,8 +2,8 @@ uk:
   layouts:
     application:
       meta_description: "Колективний блог львівської спільноти Ruby розробників"
-      meta_keywords: "Lviv-RUG,Ruby,JRuby,Rails,Sinatra,Rails3,Львів,Lviv"
-      meta_author: "Vitaly Pushkar"
+      meta_keywords: "Lviv-RUG,Ruby,JRuby,Rails,Sinatra,Rails4,Львів,Lviv"
+      meta_author: "Bohdan Viter"
       title: "Колективний блог Lviv Ruby User Group"
       new_item: "Додати публікацію"
       vacancies: "Вакансії"
