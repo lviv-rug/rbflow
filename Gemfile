@@ -1,20 +1,20 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
-gem "rails", "~> 3.2.6"
+gem "rails", "~> 3.2.14"
 
 gem "capistrano"
 gem "unicorn"
 
 gem "therubyracer"
 
-gem "jquery-rails", "~> 2.0.2"
-gem "omniauth", "~> 1.1.0"
+gem "jquery-rails", "~> 2.2.1"
+gem "omniauth", "~> 1.1.4"
 gem "omniauth-openid", "~> 1.0.1"
-gem "omniauth-twitter", "~> 0.0.11"
-gem "omniauth-github", "~> 1.0.1"
-gem "cancan", "~> 1.6.7"
-gem "rdiscount", "~> 1.6.8"
-gem "kaminari", "~> 0.13.0"
+gem "omniauth-twitter", "~> 0.0.16"
+gem "omniauth-github", "~> 1.1.0"
+gem "cancan", "~> 1.6.9"
+gem "rdiscount", "~> 2.0.7.2"
+gem "kaminari", "~> 0.14.1"
 gem "thinking-sphinx", "~> 2.0.12"
 
 group :assets do
